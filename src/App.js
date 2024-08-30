@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>THis is not the React Deafault page</code> and save to reload.
+          Edit <code>THis is sakshi's page</code> and save to reload.
         </p>
         <a
           className="App-link"
