@@ -7,6 +7,9 @@ phases:
   build:
     commands:
       - npm run build
+      - aws s3 sync build/ s3://my-react-bucket02/new-repo-react-awscicd
+
 artifacts:
   files:
     - '**/*'
+
